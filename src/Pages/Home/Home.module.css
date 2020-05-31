@@ -1,0 +1,5 @@
+.home {
+   position: relative;
+   overflow: hidden;
+   max-height: calc(100vh - 56px);
+}

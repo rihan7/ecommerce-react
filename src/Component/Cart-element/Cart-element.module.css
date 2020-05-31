@@ -1,0 +1,26 @@
+.shoppingCartEle {
+   margin: 1rem 0;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+
+.shoppingCartEle img {
+   width: 5rem;
+   height: 3rem;
+}
+
+.span svg {
+  transition: .3s ease;
+  cursor: pointer;
+}
+
+.span svg:hover {
+   transform: scale(1.7);
+   
+}
+.span svg:active {
+   transform: scale(1);
+}

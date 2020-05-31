@@ -1,0 +1,56 @@
+.header {
+   position: sticky;
+   top: 0;
+   left: 0;
+   z-index: 1000;
+   padding: .5rem 2rem;
+   width: 100%;
+   height: 3.5rem;
+   background: #f0f0f0;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: .87rem;
+}
+
+.header > div {
+   font-weight: bold;
+   color: rgb(80, 80, 80);
+}
+
+.header ul {
+   list-style-type: none;
+   display: flex;
+}
+
+li {
+   margin: .5rem;
+   color: rgb(102, 102, 102);
+}
+
+li svg {
+   vertical-align: middle;
+}
+
+div a,
+li a {
+   text-decoration: none;
+   color: inherit;
+}
+
+.header li {
+   cursor: pointer;
+}
+
+.badge {
+   display: inline-block;
+   width: auto;
+   padding: 0 2px;
+   margin: 0 5px;
+   height: 80%;
+   border-radius: 5px;
+   background: #28a745;
+   color: white;
+   font-size: .7rem;
+   text-align: center;
+}
